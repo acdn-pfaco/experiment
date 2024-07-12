@@ -30,6 +30,16 @@ Reference the table below (from [LS1012A Reference Manual](../external/nxp/LS101
 - Program unsecure image
 - Boot and get access to u-boot shell
 
+## Test Mermaid Diagram
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## Check Initial SNVS State and Value in SCRATCH Registers
 
 ```bash
